@@ -1,0 +1,162 @@
+body{
+    background-color: aquamarine;
+}
+
+header{
+    display: flex;
+    justify-content: space-between; 
+    color: aliceblue;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    position: relative;
+    right: 50px;
+    text-transform: uppercase;
+    color: aliceblue;
+    
+}
+
+
+.logo{
+    position: relative;
+    left: 50px;
+    color: aliceblue;
+}
+
+
+.phonenumber{position: relative;right: 200px;
+    color: aliceblue;
+
+}
+
+
+a{text-decoration: none;
+    color: aliceblue
+}
+
+
+.maintext{
+position: relative;top: 200px;
+left: 300px;
+position: relative;left: 280px;
+
+color: #ee82ee;
+
+
+
+}
+
+
+
+.image{
+position: relative;
+right: 90px;
+
+}
+
+
+.imagclass{
+    width: 75%;
+}
+
+.animbutton{
+    position: relative;
+    left: 21px;
+    background-color: blueviolet;
+color: red;
+padding: 7.5px 15px;
+text-transform: uppercase;
+border: none;
+width: 125px;
+border-radius: 37.5px;
+cursor: pointer;
+transition: background-color 0.7s ease,transform 0.7s ease;
+animation: lift 2s infinite alternate;
+}
+
+
+@keyframes lift{
+    0%
+    {transform: translateY(0);
+    
+    }
+
+    100%{
+    transform: translateY(-10px);
+
+    }
+}
+
+.animbutton:hover{
+    background-color: violet;
+    color: darkred;
+transform:scale(1.1);
+    
+}
+.about{
+    position: absolute;
+    text-align: center;
+    right: 1200px;
+    
+}
+
+
+.Ourwp{
+    background-color: chartreuse;
+position: relative;
+top: 520px;
+
+}
+
+
+.Myworkers{
+    background-color: coral;
+    position: relative;
+    top: 500px;
+}
+
+.image1-3{
+position: relative;
+bottom: 7.5px;
+display: flex;
+justify-content: space-around;
+
+}
+
+.image1-3 img:hover{
+    transform: scale(1.05);
+
+}
+
+.image1-3 img{
+    transition: transform 0.5s ease-in-out;
+}
+
+.image4-6{
+    position: relative;
+bottom: 7.5px;
+display: flex;
+justify-content: space-around;
+}
+
+.image4-6 img:hover{
+    transform: scale(1.05);
+
+}
+
+.image4-6 img{
+    transition: transform 0.5s ease-in-out;
+}
+
+.Myworkers h1{
+    display: flex;
+    justify-content: center;
+}
+
+.Ourwp h1{
+    display: flex;
+    justify-content: center;
+}
